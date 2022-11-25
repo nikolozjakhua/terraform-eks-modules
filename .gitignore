@@ -1,0 +1,15 @@
+# local terraform dir
+.terraform/*
+# tfstate
+*.tfstate
+*.tfstate.*
+
+# variables
+*.tfvars
+
+# ignore CLI config files
+.terraformrc
+terraform.rc
+
+# ignore crash logs
+crash.log
